@@ -1,0 +1,259 @@
+/* h2{
+    color: #a99003;
+}
+p{
+    color: #0ce5fd;
+    background-color: black;
+}
+button {
+    color: white;
+    background-color: blue;
+} */
+
+/* h1{
+    text-align: center;
+    color: #ffa511;
+    text-decoration: double teal underline;
+    font-family: league spartun;
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-transform: uppercase;
+} */
+/* p{
+    color: #a52a2a;
+    text-align: center;
+    line-height: 30px;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+h3{
+    text-align: center;
+    color: black;
+}
+h4{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(0,255,0);
+}
+button{
+    color: blueviolet;
+    background-color: white;
+}
+textarea{
+    color: #000;
+}
+span{
+    text-decoration: underline;
+} */
+
+/* *{
+    font-family: Courier New;
+}
+h1{
+    color: #1b74e4;
+}
+
+
+button{
+    background-color: aqua;
+}
+#searchbtn{
+    background-color: black;
+    color:white;
+} */
+
+
+/* #mainTopic {
+    color: blue;
+}
+*{
+    text-align: center;
+}
+h1,h3{
+    font-family: Georgia;
+}
+.p{
+    color: white;
+    background-color: cornflowerblue;
+}
+div button{
+    background-color: purple;
+    color: azure;
+}
+button:hover{
+    color: blue;
+    background-color: yellow;
+}
+p:nth-of-type(2n+1){
+    background-color: yellow;
+}
+h1::first-letter{
+    color: red;
+}
+ #yes:checked + label {
+      color: darkgreen;
+} */
+
+
+/* div {
+    height: 150px;
+    width: 300px;
+    background-color: grey;
+    border: 2px dotted black;
+    margin-top: 20px;
+    margin-right: 1em;
+    margin-bottom: 40px;
+    margin-left: 2em;
+    padding: 1em 1em 1em 1em;
+
+} */
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+ul li{
+    display: inline-block;
+} */
+/* .card{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    border: 2px solid black;
+    transition: 1s;
+    border-radius: 5px;
+    box-shadow:2px 2px 5px black ;
+    margin: 5px;
+    
+}
+/* img:hover{
+    box-shadow: 2px 2px 10px black;
+} */
+/* img{
+    width: 100%;
+    height: 80%;
+    border-radius: 5px;
+}
+.card:hover{
+    box-shadow: 2px 2px 20px black;
+}
+.desc{
+    padding: 0 0 5px 8px;
+} */ 
+
+
+/* Qs1. Add a 2s transition on box1 for width changes.
+       It should have 'ease-in' speed curve & 0.5s delay  */
+/* 
+       #box1 {
+        width: 100px;
+        height: 100px;
+        background: green;
+        transition: width 2s ease-in 0.5s;
+      }
+      
+      #box1:hover {
+        width: 600px;
+      } */
+      
+      /* Qs2. Using transform, move box2 200px to the right  & 
+              200px down. Also rotate it 90deg.*/
+      
+      /* #box2 {
+        width: 100px;
+        height: 100px;
+        background: red;
+        transform: translateX(200px) translateY(200px) rotate(90deg);
+      } */
+      
+      /* Qs3. Using transform, skew box3 20deg along the x axis.*/
+/*       
+      #box3 {
+        width: 100px;
+        height: 100px;
+        background: lightblue;
+        transform: skewX(20deg);
+      }
+       */
+      /* Qs4. Set a 2px horizontal & 2px vertical, green shadow 
+              for box4, with a 5px blur radius.*/
+      
+      /* #box4 {
+        width: 100px;
+        height: 100px;
+        background: lightgreen;
+        box-shadow:2px 2px 5px green ;
+       
+
+      }
+       */
+      /* Qs5. Set Your picture or any picture as the background of the div
+              "myPic". Also, set transparency of this div to 50%. */
+      
+      /* #myPic {
+        width: 200px;
+        height: 200px;
+        background: pink;
+        background-image: url(hoverPhoto2.jpg);
+        opacity: 50%;
+      }
+      
+       */
+/* 
+     .box {
+          height: 400px ;
+          width: 400px;
+          border: 2px solid black;
+          display: flex;
+          flex-direction: row;
+          
+          justify-content: space-evenly;
+          flex-wrap: wrap;
+          border-radius: 25px;
+       }
+       .A, .B, .C, .D, .F,.E,.G,.H ,.F, .I{
+        height:100px ;
+        width: 100px ;
+        font-size: 50px;
+        border: 2px solid black;
+        border-radius: 25px ;
+       
+        display: flex;
+        justify-content: space-around;
+        
+        flex-direction: row;
+    
+        
+        
+       }
+       .A, .B ,.C,.D,.E,.F,.G,.H,.I{
+           transform: translateY(12.25px);
+           background-color: rgba(0, 0, 0, .3);
+           
+       }
+       section{
+        display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          flex-wrap: wrap;
+          transform: translateY(12,25px);
+
+       }
+       
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+} */
