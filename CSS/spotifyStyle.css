@@ -188,10 +188,11 @@ opacity: 0.9;
     background-color: #232323;
     width:150px ;
     border-radius: 0.5rem;
-    height: ;
+
     margin-right: 1.5rem;
     margin-top: 1rem;
 }
+
 .card-img{
     width: 93%;
     border-radius: 0.5rem;
@@ -205,11 +206,16 @@ opacity: 0.9;
 .card-info{
     font-size: 0.85rem;
     opacity: 0.5;
+    margin-left:0.5rem ;
+    margin-bottom:0.5rem ;
 }
 .card-container{
     display: flex;
     /* justify-content: space-between; */
     flex-wrap: wrap; 
+}
+.card:hover{
+    background-color: rgb(49, 48, 48);
 }
 .footer{
     height: 300px;
